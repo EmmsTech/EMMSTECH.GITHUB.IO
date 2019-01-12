@@ -2,8 +2,25 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  height: 85px;
+  flex-wrap: wrap;
+}
+
 .nav-logo {
-  width: 100px;
+  width: auto;
+  height: 100%;
+}
+
+.nav-menu {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
 }
 
 .header {
@@ -14,4 +31,8 @@ body {
 
 .header-logo {
   width: 400px;
+}
+
+@media query {
+
 }
