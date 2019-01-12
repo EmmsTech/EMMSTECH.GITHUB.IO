@@ -2,8 +2,14 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.nav-logo {
+  width: 100px;
+}
+
 .header {
   text-align: center;
+  height: 670px;
+  padding-top: 20%;
 }
 
 .header-logo {
