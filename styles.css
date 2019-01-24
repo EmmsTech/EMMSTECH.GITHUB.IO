@@ -1,5 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
+
 }
 
 .header-nav {
@@ -35,4 +36,92 @@ body {
 
 @media query {
 
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-nav a {
+  color: black;
+}
+
+h1 {
+  margin: 0%;
+}
+
+/* background colours for boxes */
+
+.boxcontent {
+  padding: 1em;
+  margin: 1em;
+}
+
+
+
+.quote {
+  background-color: #c23a89;
+  box-shadow: 10px 5px 5px #e09bc3;
+  border-radius: 25px;
+
+}
+
+.content {
+  background-color: #d02b7d;
+  box-shadow: 10px 5px 5px #e793bd;
+  border-radius: 25px;
+}
+
+.contact {
+  background-color: #9f4f9c;
+  box-shadow: 10px 5px 5px #cea5cd;
+  border-radius: 25px;
+}
+
+.events {
+  background-color: #4fa5e0;
+  box-shadow: 10px 5px 5px #a5d1ef;
+  border-radius: 25px;
+}
+
+.community {
+  background-color: #382288;
+  box-shadow: 10px 5px 5px #919ccc;
+  border-radius: 25px;
+}
+
+.inspirationstext {
+  background-color: #97de7c;
+  box-shadow: 10px 5px 5px #caeebc;
+  border-radius: 25px;
+}
+
+.inspopic {
+  width: 300px;
+  height: 300px;
+}
+
+.inspiration1 {
+  background-color: #36b783;
+  box-shadow: 10px 5px 5px #99dac0;
+  border-radius: 25px;
+}
+
+.inspiration2 {
+  background-color: #8fc94e;
+  box-shadow: 10px 5px 5px #c6e3a5;
+  border-radius: 25px;
+}
+/*byt färg*/
+.inspiration3 {
+  background-color: #efec46;
+  box-shadow: 10px 5px 5px #ecea82;
+  border-radius: 25px;
+}
+
+.inspiration4 {
+  background-color: #ecf585;
+  box-shadow: 10px 5px 5px #f6fbb9;
+  border-radius: 25px;
 }
